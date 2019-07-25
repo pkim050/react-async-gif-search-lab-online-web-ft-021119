@@ -3,7 +3,7 @@ import React from 'react'
 class GifList extends React.Component {
   constructor(props) {
     super(props)
-    state = {
+    this.state = {
       gif: props
     }
   }
